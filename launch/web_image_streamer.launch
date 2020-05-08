@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<launch>
+  <arg name="video_port" default="8080"/>
+  <include file="$(find pimouse_ros)/launch/pimouse_ros.launch" />
+  <node pkg="cv_camera" name="cv_camera" type="cv_camera_node" >
+    <param name="rate" value="10.0" />
+    <param name="image_width" value="320" /> 
+    <param name="image_height" value="240" />
+  </node>
+  <node name="web_video_server" pkg="web_video_server" type="web_video_server" >
+    <param name="port" value="$(arg video_port)"/>
+  </node>
+</launch>
