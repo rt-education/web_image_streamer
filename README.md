@@ -1,6 +1,6 @@
 # web_image_streamer
 
-[ロボット実機と動画で学ぶ「プロロボ道 E-learning」](https://rt-net.jp/service/e-learning-rpre/)のLevel3で作成・使用するソフトウェアのサンプルです。
+[ロボット実機と動画で学ぶ「プロロボ道 E-learning」](https://rt-net.jp/service/e-learning-rpre/)のLevel3で使用するソフトウェアです。
 
 使い方については動画をご覧ください。
 
