@@ -1,7 +1,7 @@
 <?xml version="1.0"?>
 <launch>
   <arg name="video_port" default="8080"/>
-  <include file="$(find pimouse_ros)/launch/pimouse_ros.launch" />
+  <include file="$(find raspimouse_ros_2)/launch/raspimouse.launch" />
   <node pkg="cv_camera" name="cv_camera" type="cv_camera_node" >
     <param name="rate" value="10.0" />
     <param name="image_width" value="320" /> 
